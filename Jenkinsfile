@@ -18,7 +18,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/stoenpav/nodejs-my-proj.git'
+                git branch: 'main', url: 'https://github.com/bobby1velev/nodejs-my-proj.git'
             }
         }
         stage('Build') {
