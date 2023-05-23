@@ -1,7 +1,7 @@
 pipeline {
 
     agent {
-        label 'docker-slave'
+        label 'my-ssh-agent-2'
     }
 
     tools {
