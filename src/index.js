@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
         </style>
       </head>
       <body>
-        <h2>This is new color!</h2>
+        <h2>Webhook works!</h2>
       </body>
     </html>
   `;
