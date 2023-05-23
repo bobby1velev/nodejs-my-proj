@@ -25,6 +25,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+                sh 'npm install -g forever'
                 sh 'forever start src/index.js'
             }
         }
